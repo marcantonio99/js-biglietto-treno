@@ -10,12 +10,14 @@
 <body>
     <h2>Inserisci km da percorrere e la tua eta`</h2>
 
-    <p id="price">
-        <input type="text" id="inputKmToGo">
-        <input type="text" id="inputAge">
+    <form action="">
+        <input type="text" id="inputKm" value="">
+        <input type="text" id="inputAge" value="">
             
-        <button onclick="ticketPrice()">Visualizza Prezzo del Biglietto</button>
-    </p>
+        <button onclick="ticketPrice(); return false">Visualizza Prezzo del Biglietto</button>
+    </form>
+
+    <div id="boxPrice"></div>
 
     <script type="text/javascript" src="./assets/scripts/main.js"></script>
 </body>
